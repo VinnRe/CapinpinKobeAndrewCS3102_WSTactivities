@@ -12,5 +12,9 @@ body {
 
 .games {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.fps-genre {
+    font-weight: 600;
 }
