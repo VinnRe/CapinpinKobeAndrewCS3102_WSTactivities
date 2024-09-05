@@ -1,0 +1,60 @@
+:root {
+    --red-color: rgb(175, 79, 79);
+    --blue-color: #7b76c5;
+    --green-color: #1dbd47;
+    --yellow-color: #cbe84a;
+    --purple-color: #c14ce2;
+    --orange-color: #d59137;
+    --white-color: #f2f2f2;
+    --off-white-color: #f1e9e9;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--off-white-color);
+}
+
+.table-title {
+    text-align: center;
+}
+
+.sched-table {
+    border: 0.2rem solid black;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.sched-table tr td {
+    border: 1px solid black;
+}
+
+.header-time {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.header-mon {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.header-tue {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.header-wed {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.header-thu {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.header-fri {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+}
