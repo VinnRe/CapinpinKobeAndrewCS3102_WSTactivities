@@ -1,0 +1,98 @@
+/* BASE STYLES */
+
+:root {
+    /*Selects the document's root element*/
+    --clr-dark: #0f172a;
+    --clr-light: #f9f1f9;
+    --clr-bg: #ca15c1;
+    --clr-accent: #9c1395;
+}
+
+*,
+*::before, /*inserts something before the content of each selected element(s)*/
+*::after /*inserts something after the content of each selected element(s)*/
+{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid var(--clr-dark);
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: var(--clr-bg);
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-accent);
+    border-radius: 10px;
+}
+
+.item-3 {
+    background-color: bisque;
+}
+
+.item-5 {
+    width: 10vw;
+    height: 30vh;
+    transition: transform 0.3 ease;
+}
+
+.item-5:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.item-6 {
+    background-color: #333333;
+}
+
+.item-7 {
+    background-color: #1cf014;
+    border-color: var(--clr-dark);
+}
+
+.item-9 {
+    width: 20vw;
+    height: auto;
+}
