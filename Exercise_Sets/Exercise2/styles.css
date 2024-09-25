@@ -91,4 +91,5 @@ body {
     'opsz' 50;
 
     font-size: 50px;
+    color: var(--dark-primary-color);
 }
