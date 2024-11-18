@@ -42,7 +42,7 @@ h2 {
 .textAreaSection textarea {
     width: 100%;
     height: 100%;
-    border-radius: 2rem;
+    border-radius: 0.3rem;
     resize: none;
     padding: 1rem;
     box-sizing: border-box;
